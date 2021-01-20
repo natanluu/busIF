@@ -4,6 +4,10 @@
 	font-family:'Roboto';
 }
 
+body{
+	background-color:#8FFF9D
+}
+
 h1{
 	text-align:center;
 	font-size: 50px;
@@ -40,29 +44,28 @@ li{
 
 .opcoes{
 
-	margin: 5% 10% 5% 10%;
+	margin: 100px 10px 80px 150px;
 }
 
 .card{
-	width:300px;
-	height: 300px;
-
 	float: left;
-
-	margin: 10px 7px 10px 7px;
-	padding: 10px 25px 10px 25px;
+	display: inline-block;
+	margin: 10px 5px 10px -15px;
+	padding: 10px 5px 10px 15px;
 
 }
 
 .card img {
-    max-width:250px;
-    max-height:250px;
+    max-width:150px;
+    max-height:150px;
     width: auto;
     height: auto;
 }
 
+
 .botao{
-	margin: 10% 25% 10% 25%;
+	text-align: center;
+	margin: 10% 25% 10% 20%;
 	font-family:'Copperplate Gothic';
 }
 
@@ -72,23 +75,6 @@ li{
 
 }
 
-.card{
-	width:300px;
-	height: 300px;
-
-	float: left;
-
-	margin: 10px 0px 10px 7px;
-	padding: 10px 5px 10px 25px;
-
-}
-
-.card img {
-    max-width:250px;
-    max-height:250px;
-    width: auto;
-    height: auto;
-}
 
 .card1{
 	width:300px;
@@ -125,7 +111,7 @@ li{
 }
 
 .opcoes1{
-	margin: 5% 5% 5% 5%;
+	margin: 5% 5% 45% 7%;
 	
 }
 .card2{
@@ -140,11 +126,20 @@ li{
 }
 
 .card2 img {
-
-    max-width:200px;
-    max-height:200px;
+    max-width:125px;
+    max-height:125px;
     width: auto;
     height: auto;
+    margin: 0px 40px 10px 50px;
+    padding: 0% 10% 5% 10%;
+}
+
+.menor img{
+    max-width:100px;
+    max-height:100px;
+    width: auto;
+    height: auto;
+    margin: 13px 40px 17px 50px;
     padding: 0% 10% 5% 10%;
 }
 
@@ -157,22 +152,9 @@ li{
 	font-family:'Copperplate Gothic';
 }
 
-.chamado a:link, a:visited{
-	background-color: lightgrey;
-	padding: 14px 25px;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
+.botao1 p{
+	text-align: left;
 }
-
-.chamado a:hover, a:active {
-	color: red;
-	text-decoration: underline;
-	cursor: pointer;
-	background-color: black;
-}
-
-
 
 a:link {
 	color: black;
@@ -188,28 +170,32 @@ a:visited {
 
 a:hover {
 	background-color: black;
-	color: red;
+	color: #F51C14;
 	text-decoration: underline; 
 	cursor: pointer;
 }
 
 a:active {
-	color: blue;
+	color: #F51C14;
 	text-decoration: underline; 
 }
 
-.links{
 
+.links a{
+	color: white;
 }
+
+
 ul {
 	list-style-type: none;
 	margin: 0% 0% 0% 0%;
-	padding: 0% 23% 0% 23%;
+	padding: 0% 20% 0% 23%;
 	overflow: hidden;
-	background-color: lightgrey;
-	border: 2px solid #000000;
+	background-color: #F51C14;
+	border: 1px solid #000000;
 	position: fixed;
 	bottom: 0;
+	left: 0;
 	width: 100%;
 }
 
@@ -222,6 +208,8 @@ li:last-child {
   border-right: none;
 }
 
-
-
+.point a:hover{
+	cursor: pointer;
+	background-color: #6BFF86;
+}
 
